@@ -1,5 +1,6 @@
 class Employee():
-# class variable
+# class variable is shared by all instances of the class
+#when one instance of the class changes the value of the class variable, it changes for the specific instance of the class but not for all the class instances
     raise_amount = 1.04
     num_of_emps = 0
     def __init__(self,fname,lname,pay):

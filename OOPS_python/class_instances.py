@@ -1,4 +1,6 @@
-class Employee():
+class Employee(): 
+    #self is a instance variable which is automatically passed to the instance of the class when it is created
+    # instance variable is unique to each instance of the class
     def __init__(self,fname,lname,pay):
         self.fname = fname
         self.lname = lname
